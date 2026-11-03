@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Никколо Паганини — Великий скрипач</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+:root{
+--bg:#fff7eb;
+--white:#fff;
+--red:#c7473a;
+--wine:#852b43;
+--gold:#e6a52e;
+--text:#49332c;
+--muted:#80665a;
+--border:#f0d5b9;
+}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,serif;line-height:1.8}
+header{text-align:center;padding:75px 20px;background:radial-gradient(circle at 15% 15%,#ffe0ac,transparent 40%),radial-gradient(circle at 85% 85%,#ffcbb8,transparent 40%),linear-gradient(135deg,#fff3d7,#ffe7d8);border-bottom:5px solid var(--gold);position:relative;overflow:hidden}
+header h1{font-size:clamp(40px,7vw,76px);color:var(--wine);font-weight:normal;margin:20px 0;line-height:1.2}
+header h2{color:#b77724;font-weight:normal;letter-spacing:7px}
+header p{color:#795044}
+header p:first-child{font: bold 12px Arial,sans-serif;letter-spacing:5px;color:var(--red)}
+header p i{font-size:20px;color:var(--red)}
+nav{position:sticky;top:0;background:#fffdf8;text-align:center;padding:12px 8px;z-index:5;border-bottom:1px solid var(--border);box-shadow:0 4px 15px #7d3e2a0c}
+nav a{display:inline-block;padding:8px 12px;color:var(--wine);text-decoration:none;font:bold 12px Arial,sans-serif;border-radius:24px;transition:.25s}
+nav a:hover{background:var(--red);color:white}
+main{max-width:1050px;margin:auto;padding:24px}
+section{background:var(--white);border:1px solid var(--border);border-radius:18px;padding:35px;margin:26px 0;box-shadow:0 10px 30px #8b482b0d;scroll-margin-top:85px;position:relative;overflow:hidden}
+section::before{content:"";position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(90deg,var(--red),var(--gold),#f0b6a1)}
+h2{color:var(--wine);font-weight:normal}
+h3{color:var(--red);font-weight:normal}
+.section-title{text-align:center;margin:0 0 28px;font-size:clamp(25px,4vw,34px);line-height:1.4}
+.section-title::after{content:"";display:block;width:60px;height:4px;margin:14px auto 0;background:var(--gold);border-radius:4px}
+.center{text-align:center}
+img{max-width:100%;height:auto}
+.portrait{width:270px;max-height:380px;object-fit:contain;padding:6px;background:white;border:3px solid var(--gold);border-radius:150px 150px 18px 18px;box-shadow:0 10px 25px #852b431c}
+p{color:#654c41}
+.caption{color:var(--muted);font-style:italic;font-size:14px}
+table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:20px}
+th,td{padding:14px 16px;border-bottom:1px solid #f0e3d4;text-align:left}
+th{background:var(--red);color:white;font-weight:normal}
+td{color:#654c41}
+tr:nth-child(even) td{background:#fff4e5}
+tr:last-child td{border-bottom:none}
+td:first-child{width:65px;color:var(--red);font-weight:bold}
+.track{padding:22px;margin:18px 0;background:linear-gradient(120deg,#fff3e1,#fffdf8);border:1px solid #efd8b9;border-left:5px solid var(--red);border-radius:12px;transition:.25s}
+.track:hover{transform:translateY(-3px);box-shadow:0 8px 20px #8b482b12}
+.track h3{margin-top:0;font-size:21px}
+audio{width:100%;max-width:550px;margin-top:12px;accent-color:var(--red)}
+video{width:100%;max-width:760px;border:4px solid white;border-radius:14px;box-shadow:0 8px 25px #852b431c;background:#fff1dc}
+.fact{padding:17px 20px 17px 52px;margin:14px 0;border:1px solid #f0dfc5;border-radius:12px;background:#fff5e7;color:#654c41;position:relative;transition:.2s}
+.fact::before{content:"♪";position:absolute;left:19px;top:12px;font-size:23px;color:var(--red)}
+.fact:hover{background:#ffe9d9;transform:translateX(3px)}
+footer{text-align:center;padding:45px 20px;background:radial-gradient(ellipse at top,#ffe2bd,transparent 70%),#fff0df;border-top:5px solid var(--gold)}
+footer h2{color:var(--wine);font-size:32px}
+footer a{display:inline-block;padding:10px 23px;background:var(--red);color:white;text-decoration:none;border-radius:25px;font:bold 13px Arial,sans-serif;transition:.2s}
+footer a:hover{background:var(--wine)}
+@media(max-width:650px){
+header{padding:55px 15px}
+header h2{font-size:17px;letter-spacing:5px}
+nav{padding:7px 3px}
+nav a{padding:7px 8px;font-size:11px}
+main{padding:9px}
+section{padding:23px 16px;margin:17px 0;border-radius:14px}
+.portrait{width:230px}
+th,td{padding:9px 7px;font-size:13px}
+.track{padding:17px}
+.fact{padding:14px 12px 14px 43px}
+.fact::before{left:13px}
+}
+@media(max-width:380px){
+header h1{font-size:36px}
+nav a{font-size:10px;padding:6px}
+section{padding:19px 12px}
+}
+</style>
+</head>
+<body>
+<header id="top">
+<p>ВЕЛИКИЕ МУЗЫКАНТЫ МИРА</p>
+<h1>Никколо Паганини</h1>
+<h2>1782 — 1840</h2>
+<p><i>«Дьявол скрипки»</i></p>
+<p>Гений, изменивший звучание скрипки</p>
+</header>
+<nav>
+<a href="#bio">Главная</a>
+<a href="#childhood">Детство</a>
+<a href="#career">Карьера</a>
+<a href="#works">Произведения</a>
+<a href="#influence">Влияние</a>
+<a href="#life">Личная жизнь</a>
+<a href="#music">Музыка</a>
+<a href="#video">Видео</a>
+<a href="#facts">Факты</a>
+</nav>
+<main>
+<section id="bio">
+<h2 class="section-title">Великий скрипач</h2>
+<div class="center">
+<img class="portrait" src="Никколо Паганини.jpg" alt="Портрет Никколо Паганини">
+<p class="caption">Итальянский скрипач и композитор</p>
+</div>
+<p>Никколо Паганини — один из величайших скрипачей в истории. Его невероятная техника, выразительное исполнение и загадочный образ сделали его легендой европейской музыкальной культуры.</p>
+<p>Он расширил представление о возможностях скрипки, показав, что инструмент способен передавать виртуозный блеск, драматизм и необыкновенную музыкальную энергию.</p>
+</section>
+<section id="childhood">
+<h2 class="section-title">01. Детство и ранние годы</h2>
+<p>Никколо Паганини родился 27 октября 1782 года в Генуе, Италия. Он вырос в семье Антонио Паганини и Терезы Боччардо. Его отец занимался торговлей и увлекался музыкой.</p>
+<p>Антонио заметил музыкальные способности сына и начал обучать его игре на музыкальных инструментах. Сначала Никколо занимался мандолиной, а затем сосредоточился на скрипке.</p>
+<p>Мальчик обладал необыкновенным музыкальным слухом, хорошей памятью и способностью быстро осваивать сложные произведения. Позже он обучался у местных музыкантов, в том числе у скрипача Джакомо Косты.</p>
+</section>
+<section id="career">
+<h2 class="section-title">02. Начало карьеры и слава</h2>
+<p>В подростковом возрасте Паганини начал выступать перед публикой в разных городах Италии. В 1797 году он отправился в концертную поездку по Северной Италии вместе с отцом.</p>
+<p>В 1805 году Паганини поступил на службу к Элизе Бачокки, сестре Наполеона Бонапарта, правившей в Лукке. В 1809 году он оставил придворную службу и начал самостоятельную концертную карьеру.</p>
+<p>В 1828 году музыкант отправился в Вену, затем выступал в городах Германии, Париже и Лондоне. Его виртуозная техника вызывала восхищение, а загадочный сценический образ принёс ему прозвище «Дьявол скрипки».</p>
+</section>
+<section id="works">
+<h2 class="section-title">03. Музыкальное творчество</h2>
+<p>Паганини расширил технические возможности скрипки, используя пиццикато левой рукой, флажолеты, двойные ноты и сложные пассажи.</p>
+<table>
+<tr><th>№</th><th>Известные произведения</th></tr>
+<tr><td>01</td><td>«24 каприса для скрипки соло», Op. 1</td></tr>
+<tr><td>02</td><td>«Каприс № 24 ля минор»</td></tr>
+<tr><td>03</td><td>Концерт для скрипки с оркестром № 2 си минор</td></tr>
+<tr><td>04</td><td>«La Campanella» — «Колокольчик»</td></tr>
+<tr><td>05</td><td>Концерт для скрипки с оркестром № 1 ре мажор</td></tr>
+<tr><td>06</td><td>«Moto perpetuo»</td></tr>
+</table>
+</section>
+<section id="influence">
+<h2 class="section-title">04. Влияние на композиторов</h2>
+<p>Творчество Паганини оказало огромное влияние на европейскую музыку XIX века. Ференц Лист был настолько впечатлён его игрой, что стремился достичь сопоставимого виртуозного уровня на фортепиано.</p>
+<p>Роберт Шуман также обращался к его музыке. Сергей Рахманинов написал «Рапсодию на тему Паганини» для фортепиано с оркестром, использовав тему из 24-го каприса.</p>
+</section>
+<section id="life">
+<h2 class="section-title">05. Личная жизнь и последние годы</h2>
+<p>У Паганини были длительные отношения с певицей Антонией Бьянки. В 1825 году у них родился сын Ахилл, к которому музыкант был очень привязан.</p>
+<p>В последние годы здоровье Паганини ухудшилось. Он умер 27 мая 1840 года в Ницце в возрасте 57 лет. Несмотря на трудности, его музыкальное наследие сохранило мировую известность.</p>
+</section>
+<section id="legacy">
+<h2 class="section-title">06. Наследие</h2>
+<p>Его 24 каприса входят в репертуар профессиональных скрипачей и используются в музыкальном образовании. Концерты и другие сочинения Паганини исполняются по всему миру.</p>
+<p>Его имя стало символом выдающегося музыкального таланта и виртуозного мастерства.</p>
+</section>
+<section id="music">
+<h2 class="section-title">07. Музыкальная галерея</h2>
+<div class="center">
+<img src="24caprise.jpg" alt="Ноты произведений Паганини" width="400">
+<p class="caption">Музыка, пережившая столетия</p>
+</div>
+<div class="track">
+<h3>Caprice No. 5</h3>
+<p>Виртуозное произведение для скрипки.</p>
+<audio controls><source src="Caprice No. 5» («Каприс № 5».mp3" type="audio/mpeg"></audio>
+</div>
+<div class="track">
+<h3>La Campanella</h3>
+<p>Знаменитая звонкая мелодия.</p>
+<audio controls><source src="La Campanella» («Колокольчик).mp3" type="audio/mpeg"></audio>
+</div>
+<div class="track">
+<h3>Paganini Rhapsody on Caprice 24</h3>
+<p>Рапсодия Рахманинова на тему знаменитого каприса.</p>
+<audio controls><source src="Paganini Rhapsody on Caprice 24.mp3" type="audio/mpeg"></audio>
+</div>
+<div class="track">
+<h3>24 Caprices, No. 24 in A Minor</h3>
+<p>Тема и серия виртуозных вариаций.</p>
+<audio controls><source src="24 Caprices, No. 24 in A Minor.mp3" type="audio/mpeg"></audio>
+</div>
+<div class="track">
+<h3>Violin Concerto No. 2 in B Minor</h3>
+<p>Финал второго скрипичного концерта.</p>
+<audio controls><source src="Violin Concerto No. 2 in B Minor — La Campanella, III. Rondo Andantino.mp3" type="audio/mpeg"></audio>
+</div>
+</section>
+<section id="video">
+<h2 class="section-title">08. Видео: La Campanella</h2>
+<div class="center">
+<video controls><source src="La Campanella.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+</div>
+</section>
+<section id="facts">
+<h2 class="section-title">09. Интересные факты</h2>
+<div class="fact">Паганини считался одним из величайших скрипачей-виртуозов своего времени.</div>
+<div class="fact">Он использовал сложные пассажи, флажолеты и пиццикато левой рукой.</div>
+<div class="fact">Его загадочный образ принёс ему прозвище «Дьявол скрипки».</div>
+<div class="fact">Его музыка вдохновила Ференца Листа, Роберта Шумана и Сергея Рахманинова.</div>
+</section>
+</main>
+<footer>
+<h2>Никколо Паганини</h2>
+<p>1782–1840</p>
+<p><i>Легенда, чья музыка звучит сквозь века.</i></p>
+<a href="#top">↑ Вернуться наверх</a>
+</footer>
+</body>
+</html>
+
